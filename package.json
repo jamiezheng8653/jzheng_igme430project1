@@ -1,0 +1,31 @@
+{
+  "name": "jzheng_igme430project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildBundle": "webpack",
+    "heroku-postbuild": "webpack --mode production",
+    "watchBundle": "webpack watch",
+    "nodemon": "nodemon --watch ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiezheng8653/jzheng_igme430project1.git"
+  },
+  "author": "Jamie Zheng",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jamiezheng8653/jzheng_igme430project1/issues"
+  },
+  "homepage": "https://github.com/jamiezheng8653/jzheng_igme430project1#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "nodemon": "^3.1.11",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
